@@ -1,0 +1,25 @@
+# Diff Summary
+
+Date : 2025-03-13 14:19:35
+
+Directory /home/mahdi/Work/Project/dashboard-app/dashboard-app
+
+Total : 2 files,  33 codes, 7 comments, 1 blanks, all 41 lines
+
+[Summary](results.md) / [Details](details.md) / Diff Summary / [Diff Details](diff-details.md)
+
+## Languages
+| language | files | code | comment | blank | total |
+| :--- | ---: | ---: | ---: | ---: | ---: |
+| MS SQL | 2 | 33 | 7 | 1 | 41 |
+
+## Directories
+| path | files | code | comment | blank | total |
+| :--- | ---: | ---: | ---: | ---: | ---: |
+| . | 2 | 33 | 7 | 1 | 41 |
+| prisma | 2 | 33 | 7 | 1 | 41 |
+| prisma (Files) | 1 | 9 | 0 | 0 | 9 |
+| prisma/migrations | 1 | 24 | 7 | 1 | 32 |
+| prisma/migrations/20250313104932_extended_video_game_product2 | 1 | 24 | 7 | 1 | 32 |
+
+[Summary](results.md) / [Details](details.md) / Diff Summary / [Diff Details](diff-details.md)

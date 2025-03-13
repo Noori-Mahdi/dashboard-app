@@ -1,0 +1,66 @@
+"filename", "language", "TypeScript JSX", "CSS", "TypeScript", "XML", "JSON with Comments", "JSON", "Markdown", "MS SQL", "JavaScript", "comment", "blank", "total"
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/README.md", "Markdown", 0, 0, 0, 0, 0, 0, 23, 0, 0, 0, 14, 37
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/app/adminPanel/itemManegmant/page.tsx", "TypeScript JSX", 59, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 64
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/app/adminPanel/layout.tsx", "TypeScript JSX", 34, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 36
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/app/adminPanel/messageManegmant/page.tsx", "TypeScript JSX", 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 6
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/app/adminPanel/userManegmant/page.tsx", "TypeScript JSX", 33, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 37
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/app/api/auth/checkTokenReady/route.tsx", "TypeScript JSX", 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 14
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/app/api/auth/login/route.ts", "TypeScript", 0, 0, 44, 0, 0, 0, 0, 0, 0, 1, 12, 57
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/app/api/auth/logout/route.tsx", "TypeScript JSX", 13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 15
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/app/api/auth/register/route.ts", "TypeScript", 0, 0, 33, 0, 0, 0, 0, 0, 0, 0, 9, 42
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/app/api/product/route.ts", "TypeScript", 0, 0, 14, 0, 0, 0, 0, 0, 0, 0, 3, 17
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/app/api/userInfo/route.ts", "TypeScript", 0, 0, 34, 0, 0, 0, 0, 0, 0, 0, 5, 39
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/app/api/users/[id]/route.tsx", "TypeScript JSX", 82, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15, 97
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/app/api/users/route.ts", "TypeScript", 0, 0, 22, 0, 0, 0, 0, 0, 0, 0, 4, 26
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/app/dashboard/page.tsx", "TypeScript JSX", 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 8
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/app/globals.css", "CSS", 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/app/layout.tsx", "TypeScript JSX", 26, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 29
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/app/library/page.tsx", "TypeScript JSX", 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 6
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/app/page.tsx", "TypeScript JSX", 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 9
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/app/store/page.tsx", "TypeScript JSX", 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 6
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/components/AddCard/index.tsx", "TypeScript JSX", 31, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 36
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/components/AddGameList/index.tsx", "TypeScript JSX", 4, 0, 0, 0, 0, 0, 0, 0, 0, 16, 4, 24
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/components/AuthForm/index.tsx", "TypeScript JSX", 190, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 204
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/components/Avatar/index.tsx", "TypeScript JSX", 29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 33
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/components/Button/index.tsx", "TypeScript JSX", 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 45
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/components/Card/index.tsx", "TypeScript JSX", 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 29
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/components/Input/index.tsx", "TypeScript JSX", 42, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 45
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/components/Loading/index.tsx", "TypeScript JSX", 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 12
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/components/Loading/style.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/components/Modal/index.tsx", "TypeScript JSX", 29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 36
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/components/NavBar/index.tsx", "TypeScript JSX", 79, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 87
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/components/SwitchButton/index.tsx", "TypeScript JSX", 47, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 53
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/components/Table/index.tsx", "TypeScript JSX", 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 112
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/components/UsersTableAction/index.tsx", "TypeScript JSX", 119, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 127
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/components/VerticalNav/index.tsx", "TypeScript JSX", 62, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 70
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/context/MainContext.tsx", "TypeScript JSX", 56, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 67
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/eslint.config.mjs", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 12, 0, 5, 17
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/helper/authentication.ts", "TypeScript", 0, 0, 62, 0, 0, 0, 0, 0, 0, 1, 9, 72
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/next.config.ts", "TypeScript", 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 3, 8
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/package-lock.json", "JSON", 0, 0, 0, 0, 0, 7224, 0, 0, 0, 0, 1, 7225
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/package.json", "JSON", 0, 0, 0, 0, 0, 39, 0, 0, 0, 0, 1, 40
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/postcss.config.mjs", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 2, 6
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/prisma/dev.db", "MS SQL", 0, 0, 0, 0, 0, 0, 0, 88, 0, 0, 0, 88
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/prisma/migrations/20250308193447_add_sqlite/migration.sql", "MS SQL", 0, 0, 0, 0, 0, 0, 0, 5, 0, 1, 1, 7
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/prisma/migrations/20250308194527_add_password_field/migration.sql", "MS SQL", 0, 0, 0, 0, 0, 0, 0, 14, 0, 7, 1, 22
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/prisma/migrations/20250309162746_change_type_id/migration.sql", "MS SQL", 0, 0, 0, 0, 0, 0, 0, 14, 0, 7, 1, 22
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/prisma/migrations/20250311165720_update_data_user/migration.sql", "MS SQL", 0, 0, 0, 0, 0, 0, 0, 18, 0, 7, 1, 26
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/prisma/migrations/20250312101216_fix_admin_role/migration.sql", "MS SQL", 0, 0, 0, 0, 0, 0, 0, 18, 0, 7, 1, 26
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/prisma/migrations/20250313075642_extended_video_game_product/migration.sql", "MS SQL", 0, 0, 0, 0, 0, 0, 0, 16, 0, 1, 1, 18
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/prisma/migrations/20250313083728_extended_video_game_product2/migration.sql", "MS SQL", 0, 0, 0, 0, 0, 0, 0, 24, 0, 7, 1, 32
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/prisma/migrations/20250313104932_extended_video_game_product2/migration.sql", "MS SQL", 0, 0, 0, 0, 0, 0, 0, 24, 0, 7, 1, 32
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/public/file.svg", "XML", 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/public/globe.svg", "XML", 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/public/next.svg", "XML", 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/public/vercel.svg", "XML", 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/public/window.svg", "XML", 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/services/api.ts", "TypeScript", 0, 0, 13, 0, 0, 0, 0, 0, 0, 6, 5, 24
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/services/auth/index.ts", "TypeScript", 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 6, 16
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/services/product/api.ts", "TypeScript", 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 2, 7
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/services/userInfo/index.ts", "TypeScript", 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 2, 7
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/services/users/[id]/index.ts", "TypeScript", 0, 0, 11, 0, 0, 0, 0, 0, 0, 0, 5, 16
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/services/users/index.ts", "TypeScript", 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 3, 8
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/tailwind.config.ts", "TypeScript", 0, 0, 12, 0, 0, 0, 0, 0, 0, 0, 3, 15
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/tsconfig.json", "JSON with Comments", 0, 0, 0, 0, 27, 0, 0, 0, 0, 0, 1, 28
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/types/type.ts", "TypeScript", 0, 0, 26, 0, 0, 0, 0, 0, 0, 0, 4, 30
+"Total", "-", 1148, 1, 300, 5, 27, 7263, 23, 221, 16, 69, 251, 9324

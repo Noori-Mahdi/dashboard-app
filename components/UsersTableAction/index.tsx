@@ -41,11 +41,11 @@ const UserTableAction = ({ id }: UserTableActionPropsType) => {
 
   return (
     <>
-      <div className="flex justify-center items-center space-x-3">
+      <div className="flex justify-start items-center space-x-3">
         <Button
           label={<FaEye className="text-xs" />}
           color="info"
-          className="p-1 text-neutral-950 cursor-pointer rounded-full transition-colors"
+          className="p-1  text-neutral-950 cursor-pointer rounded-full transition-colors"
           onClick={() => {
             handleGetUser(id, "view");
           }}

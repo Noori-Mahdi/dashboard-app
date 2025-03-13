@@ -1,0 +1,4 @@
+"filename", "language", "MS SQL", "comment", "blank", "total"
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/prisma/dev.db", "MS SQL", 9, 0, 0, 9
+"/home/mahdi/Work/Project/dashboard-app/dashboard-app/prisma/migrations/20250313104932_extended_video_game_product2/migration.sql", "MS SQL", 24, 7, 1, 32
+"Total", "-", 33, 7, 1, 41

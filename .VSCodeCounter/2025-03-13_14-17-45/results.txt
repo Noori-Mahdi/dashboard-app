@@ -1,0 +1,154 @@
+Date : 2025-03-13 14:17:45
+Directory : /home/mahdi/Work/Project/dashboard-app/dashboard-app
+Total : 63 files,  8971 codes, 62 comments, 250 blanks, all 9283 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| JSON               |          2 |      7,263 |          0 |          2 |      7,265 |
+| TypeScript JSX     |         27 |      1,148 |         16 |        143 |      1,307 |
+| TypeScript         |         15 |        300 |          9 |         75 |        384 |
+| MS SQL             |          8 |        188 |         37 |          7 |        232 |
+| JSON with Comments |          1 |         27 |          0 |          1 |         28 |
+| Markdown           |          1 |         23 |          0 |         14 |         37 |
+| JavaScript         |          2 |         16 |          0 |          7 |         23 |
+| XML                |          5 |          5 |          0 |          0 |          5 |
+| CSS                |          2 |          1 |          0 |          1 |          2 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                             | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                                |         63 |      8,971 |         62 |        250 |      9,283 |
+| . (Files)                                                                                                                        |          8 |      7,345 |          1 |         30 |      7,376 |
+| app                                                                                                                              |         18 |        432 |          1 |         76 |        509 |
+| app (Files)                                                                                                                      |          3 |         33 |          0 |          6 |         39 |
+| app/adminPanel                                                                                                                   |          4 |        130 |          0 |         13 |        143 |
+| app/adminPanel (Files)                                                                                                           |          1 |         34 |          0 |          2 |         36 |
+| app/adminPanel/itemManegmant                                                                                                     |          1 |         59 |          0 |          5 |         64 |
+| app/adminPanel/messageManegmant                                                                                                  |          1 |          4 |          0 |          2 |          6 |
+| app/adminPanel/userManegmant                                                                                                     |          1 |         33 |          0 |          4 |         37 |
+| app/api                                                                                                                          |          8 |        254 |          1 |         52 |        307 |
+| app/api/auth                                                                                                                     |          4 |        102 |          1 |         25 |        128 |
+| app/api/auth/checkTokenReady                                                                                                     |          1 |         12 |          0 |          2 |         14 |
+| app/api/auth/login                                                                                                               |          1 |         44 |          1 |         12 |         57 |
+| app/api/auth/logout                                                                                                              |          1 |         13 |          0 |          2 |         15 |
+| app/api/auth/register                                                                                                            |          1 |         33 |          0 |          9 |         42 |
+| app/api/product                                                                                                                  |          1 |         14 |          0 |          3 |         17 |
+| app/api/userInfo                                                                                                                 |          1 |         34 |          0 |          5 |         39 |
+| app/api/users                                                                                                                    |          2 |        104 |          0 |         19 |        123 |
+| app/api/users (Files)                                                                                                            |          1 |         22 |          0 |          4 |         26 |
+| app/api/users/[id]                                                                                                               |          1 |         82 |          0 |         15 |         97 |
+| app/dashboard                                                                                                                    |          1 |          7 |          0 |          1 |          8 |
+| app/library                                                                                                                      |          1 |          4 |          0 |          2 |          6 |
+| app/store                                                                                                                        |          1 |          4 |          0 |          2 |          6 |
+| components                                                                                                                       |         15 |        808 |         16 |         90 |        914 |
+| components/AddCard                                                                                                               |          1 |         31 |          0 |          5 |         36 |
+| components/AddGameList                                                                                                           |          1 |          4 |         16 |          4 |         24 |
+| components/AuthForm                                                                                                              |          1 |        190 |          0 |         14 |        204 |
+| components/Avatar                                                                                                                |          1 |         29 |          0 |          4 |         33 |
+| components/Button                                                                                                                |          1 |         40 |          0 |          5 |         45 |
+| components/Card                                                                                                                  |          1 |         25 |          0 |          4 |         29 |
+| components/Input                                                                                                                 |          1 |         42 |          0 |          3 |         45 |
+| components/Loading                                                                                                               |          2 |         10 |          0 |          3 |         13 |
+| components/Modal                                                                                                                 |          1 |         29 |          0 |          7 |         36 |
+| components/NavBar                                                                                                                |          1 |         79 |          0 |          8 |         87 |
+| components/SwitchButton                                                                                                          |          1 |         47 |          0 |          6 |         53 |
+| components/Table                                                                                                                 |          1 |        101 |          0 |         11 |        112 |
+| components/UsersTableAction                                                                                                      |          1 |        119 |          0 |          8 |        127 |
+| components/VerticalNav                                                                                                           |          1 |         62 |          0 |          8 |         70 |
+| context                                                                                                                          |          1 |         56 |          0 |         11 |         67 |
+| helper                                                                                                                           |          1 |         62 |          1 |          9 |         72 |
+| prisma                                                                                                                           |          8 |        188 |         37 |          7 |        232 |
+| prisma (Files)                                                                                                                   |          1 |         79 |          0 |          0 |         79 |
+| prisma/migrations                                                                                                                |          7 |        109 |         37 |          7 |        153 |
+| prisma/migrations/20250308193447_add_sqlite                                                                                      |          1 |          5 |          1 |          1 |          7 |
+| prisma/migrations/20250308194527_add_password_field                                                                              |          1 |         14 |          7 |          1 |         22 |
+| prisma/migrations/20250309162746_change_type_id                                                                                  |          1 |         14 |          7 |          1 |         22 |
+| prisma/migrations/20250311165720_update_data_user                                                                                |          1 |         18 |          7 |          1 |         26 |
+| prisma/migrations/20250312101216_fix_admin_role                                                                                  |          1 |         18 |          7 |          1 |         26 |
+| prisma/migrations/20250313075642_extended_video_game_product                                                                     |          1 |         16 |          1 |          1 |         18 |
+| prisma/migrations/20250313083728_extended_video_game_product2                                                                    |          1 |         24 |          7 |          1 |         32 |
+| public                                                                                                                           |          5 |          5 |          0 |          0 |          5 |
+| services                                                                                                                         |          6 |         49 |          6 |         23 |         78 |
+| services (Files)                                                                                                                 |          1 |         13 |          6 |          5 |         24 |
+| services/auth                                                                                                                    |          1 |         10 |          0 |          6 |         16 |
+| services/product                                                                                                                 |          1 |          5 |          0 |          2 |          7 |
+| services/userInfo                                                                                                                |          1 |          5 |          0 |          2 |          7 |
+| services/users                                                                                                                   |          2 |         16 |          0 |          8 |         24 |
+| services/users (Files)                                                                                                           |          1 |          5 |          0 |          3 |          8 |
+| services/users/[id]                                                                                                              |          1 |         11 |          0 |          5 |         16 |
+| types                                                                                                                            |          1 |         26 |          0 |          4 |         30 |
++----------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                                                                         | language           | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/README.md                                                                   | Markdown           |         23 |          0 |         14 |         37 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/app/adminPanel/itemManegmant/page.tsx                                       | TypeScript JSX     |         59 |          0 |          5 |         64 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/app/adminPanel/layout.tsx                                                   | TypeScript JSX     |         34 |          0 |          2 |         36 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/app/adminPanel/messageManegmant/page.tsx                                    | TypeScript JSX     |          4 |          0 |          2 |          6 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/app/adminPanel/userManegmant/page.tsx                                       | TypeScript JSX     |         33 |          0 |          4 |         37 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/app/api/auth/checkTokenReady/route.tsx                                      | TypeScript JSX     |         12 |          0 |          2 |         14 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/app/api/auth/login/route.ts                                                 | TypeScript         |         44 |          1 |         12 |         57 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/app/api/auth/logout/route.tsx                                               | TypeScript JSX     |         13 |          0 |          2 |         15 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/app/api/auth/register/route.ts                                              | TypeScript         |         33 |          0 |          9 |         42 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/app/api/product/route.ts                                                    | TypeScript         |         14 |          0 |          3 |         17 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/app/api/userInfo/route.ts                                                   | TypeScript         |         34 |          0 |          5 |         39 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/app/api/users/[id]/route.tsx                                                | TypeScript JSX     |         82 |          0 |         15 |         97 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/app/api/users/route.ts                                                      | TypeScript         |         22 |          0 |          4 |         26 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/app/dashboard/page.tsx                                                      | TypeScript JSX     |          7 |          0 |          1 |          8 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/app/globals.css                                                             | CSS                |          1 |          0 |          0 |          1 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/app/layout.tsx                                                              | TypeScript JSX     |         26 |          0 |          3 |         29 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/app/library/page.tsx                                                        | TypeScript JSX     |          4 |          0 |          2 |          6 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/app/page.tsx                                                                | TypeScript JSX     |          6 |          0 |          3 |          9 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/app/store/page.tsx                                                          | TypeScript JSX     |          4 |          0 |          2 |          6 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/components/AddCard/index.tsx                                                | TypeScript JSX     |         31 |          0 |          5 |         36 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/components/AddGameList/index.tsx                                            | TypeScript JSX     |          4 |         16 |          4 |         24 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/components/AuthForm/index.tsx                                               | TypeScript JSX     |        190 |          0 |         14 |        204 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/components/Avatar/index.tsx                                                 | TypeScript JSX     |         29 |          0 |          4 |         33 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/components/Button/index.tsx                                                 | TypeScript JSX     |         40 |          0 |          5 |         45 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/components/Card/index.tsx                                                   | TypeScript JSX     |         25 |          0 |          4 |         29 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/components/Input/index.tsx                                                  | TypeScript JSX     |         42 |          0 |          3 |         45 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/components/Loading/index.tsx                                                | TypeScript JSX     |         10 |          0 |          2 |         12 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/components/Loading/style.css                                                | CSS                |          0 |          0 |          1 |          1 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/components/Modal/index.tsx                                                  | TypeScript JSX     |         29 |          0 |          7 |         36 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/components/NavBar/index.tsx                                                 | TypeScript JSX     |         79 |          0 |          8 |         87 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/components/SwitchButton/index.tsx                                           | TypeScript JSX     |         47 |          0 |          6 |         53 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/components/Table/index.tsx                                                  | TypeScript JSX     |        101 |          0 |         11 |        112 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/components/UsersTableAction/index.tsx                                       | TypeScript JSX     |        119 |          0 |          8 |        127 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/components/VerticalNav/index.tsx                                            | TypeScript JSX     |         62 |          0 |          8 |         70 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/context/MainContext.tsx                                                     | TypeScript JSX     |         56 |          0 |         11 |         67 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/eslint.config.mjs                                                           | JavaScript         |         12 |          0 |          5 |         17 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/helper/authentication.ts                                                    | TypeScript         |         62 |          1 |          9 |         72 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/next.config.ts                                                              | TypeScript         |          4 |          1 |          3 |          8 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/package-lock.json                                                           | JSON               |      7,224 |          0 |          1 |      7,225 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/package.json                                                                | JSON               |         39 |          0 |          1 |         40 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/postcss.config.mjs                                                          | JavaScript         |          4 |          0 |          2 |          6 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/prisma/dev.db                                                               | MS SQL             |         79 |          0 |          0 |         79 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/prisma/migrations/20250308193447_add_sqlite/migration.sql                   | MS SQL             |          5 |          1 |          1 |          7 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/prisma/migrations/20250308194527_add_password_field/migration.sql           | MS SQL             |         14 |          7 |          1 |         22 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/prisma/migrations/20250309162746_change_type_id/migration.sql               | MS SQL             |         14 |          7 |          1 |         22 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/prisma/migrations/20250311165720_update_data_user/migration.sql             | MS SQL             |         18 |          7 |          1 |         26 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/prisma/migrations/20250312101216_fix_admin_role/migration.sql               | MS SQL             |         18 |          7 |          1 |         26 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/prisma/migrations/20250313075642_extended_video_game_product/migration.sql  | MS SQL             |         16 |          1 |          1 |         18 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/prisma/migrations/20250313083728_extended_video_game_product2/migration.sql | MS SQL             |         24 |          7 |          1 |         32 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/public/file.svg                                                             | XML                |          1 |          0 |          0 |          1 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/public/globe.svg                                                            | XML                |          1 |          0 |          0 |          1 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/public/next.svg                                                             | XML                |          1 |          0 |          0 |          1 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/public/vercel.svg                                                           | XML                |          1 |          0 |          0 |          1 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/public/window.svg                                                           | XML                |          1 |          0 |          0 |          1 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/services/api.ts                                                             | TypeScript         |         13 |          6 |          5 |         24 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/services/auth/index.ts                                                      | TypeScript         |         10 |          0 |          6 |         16 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/services/product/api.ts                                                     | TypeScript         |          5 |          0 |          2 |          7 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/services/userInfo/index.ts                                                  | TypeScript         |          5 |          0 |          2 |          7 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/services/users/[id]/index.ts                                                | TypeScript         |         11 |          0 |          5 |         16 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/services/users/index.ts                                                     | TypeScript         |          5 |          0 |          3 |          8 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/tailwind.config.ts                                                          | TypeScript         |         12 |          0 |          3 |         15 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/tsconfig.json                                                               | JSON with Comments |         27 |          0 |          1 |         28 |
+| /home/mahdi/Work/Project/dashboard-app/dashboard-app/types/type.ts                                                               | TypeScript         |         26 |          0 |          4 |         30 |
+| Total                                                                                                                            |                    |      8,971 |         62 |        250 |      9,283 |
++----------------------------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+

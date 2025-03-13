@@ -1,5 +1,5 @@
 import VerticalNav from "@/components/VerticalNav";
-import { FaUsers } from "react-icons/fa6";
+import { FaUsers, FaBoxesStacked } from "react-icons/fa6";
 import { AiFillMessage } from "react-icons/ai";
 
 export default function RootLayout({
@@ -14,6 +14,11 @@ export default function RootLayout({
       subPageIcon: <FaUsers />,
     },
     {
+      subPageName: "Item Manegmant",
+      subPageURL: "itemManegmant",
+      subPageIcon: <FaBoxesStacked />,
+    },
+    {
       subPageName: "Message Manegmant",
       subPageURL: "messageManegmant",
       subPageIcon: <AiFillMessage />,
@@ -24,7 +29,7 @@ export default function RootLayout({
       <div className="max-w-2/12 w-fit h-full m-2 rounded-sm border-neutral-950 bg-neutral-800 border hover:border-sky-500">
         <VerticalNav subpages={subpages} />
       </div>
-      <div className="w-10/12 min-h-full mt-2">{children}</div>
+      <div className="min-w-10/12 max-w-full grow min-h-full mt-2 mr-2">{children}</div>
     </div>
   );
 }
