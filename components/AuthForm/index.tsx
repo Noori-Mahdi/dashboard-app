@@ -31,7 +31,7 @@ const AuthForm = ({ type, changeMode }: AuthFormFormPropsType) => {
   const { updateUserInfo } = useContext(Context);
   const router = useRouter();
 
-  const handleChangeData = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleChangeData = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     setFormData((per) => ({ ...per, [name]: value }));
   };
@@ -132,7 +132,6 @@ const AuthForm = ({ type, changeMode }: AuthFormFormPropsType) => {
       <form
         onSubmit={(e) => {
           handleSubmit(e, "register");
-          console.log("hi");
         }}
       >
         <div className="uppercase select-none font-medium text-2xl text-sky-500 mb-6">

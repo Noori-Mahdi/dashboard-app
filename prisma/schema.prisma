@@ -25,20 +25,59 @@ model User {
   updateAt      DateTime        @updatedAt
 }
 
+model Genre {
+  id    String   @id @default(uuid())
+  name  String   @unique
+  games VideoGameProductGenre[]
+}
+
+model Platform {
+  id    String   @id @default(uuid())
+  name  String   @unique
+  games VideoGameProductPlatform[]
+}
+
+model Publisher {
+  id    String   @id @default(uuid())
+  name  String   @unique
+  games VideoGameProductPublisher[]
+}
+
 model VideoGameProduct {
   id            String      @id @default(uuid())
   title         String
   description   String
-  genre         String
-  platform      String
   playerCount   Int
-  releaseDate   DateTime
-  price         Float
-  publisher     String
+  releaseDate   String
   developer     String
-  rating        Float
   coverImageUrl String?
-  trailerUrl    String?
   createdAt     DateTime @default(now())
   updatedAt     DateTime @updatedAt
+  genres        VideoGameProductGenre[]
+  platforms     VideoGameProductPlatform[]
+  publishers    VideoGameProductPublisher[]
+}
+
+model VideoGameProductGenre {
+  id        String   @id @default(uuid())
+  videoGame VideoGameProduct @relation(fields: [videoGameProductId], references: [id])
+  videoGameProductId String
+  genre     Genre @relation(fields: [genreId], references: [id])
+  genreId   String
+}
+
+model VideoGameProductPlatform {
+  id        String   @id @default(uuid())
+  videoGame VideoGameProduct @relation(fields: [videoGameProductId], references: [id])
+  videoGameProductId String
+  platform  Platform @relation(fields: [platformId], references: [id])
+  platformId String
+}
+
+model VideoGameProductPublisher {
+  id        String   @id @default(uuid())
+  videoGame VideoGameProduct @relation(fields: [videoGameProductId], references: [id])
+  videoGameProductId String
+  publisher Publisher @relation(fields: [publisherId], references: [id])
+  publisherId String
 }

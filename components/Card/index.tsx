@@ -1,25 +1,28 @@
 import { FaUsers } from "react-icons/fa";
+import CardAction from "../CardAction";
 
 interface CardPropsType {
   title: string;
   playerCount: number;
   coverImageUrl?: string;
+  id: string;
 }
 
-const Card = ({ title, playerCount, coverImageUrl }: CardPropsType) => {
+const Card = ({ title, playerCount, coverImageUrl, id }: CardPropsType) => {
   return (
-    <div className="relative flex flex-col w-60 h-72 rounded border border-zinc-300">
+    <div className="relative cursor-pointer flex flex-col w-60 h-72 rounded-lg border border-zinc-300 shadow-lg">
       <img
-        className="grow rounded-md w-full border-0"
+        className="grow rounded-t-lg w-full object-cover"
         src={coverImageUrl}
         alt={title}
       />
-      <div className="rounded-bl rounded-br w-full h-2/6 bg-neutral-700 ">
-        <div>{title}</div>
-        <div className="flex">
-          <FaUsers />
+      <div className="rounded-b-lg w-full h-2/6 bg-neutral-700 p-4 text-white">
+        <h3 className="font-bold text-lg">{title}</h3>
+        <div className="flex items-center mt-2">
+          <FaUsers className="mr-2" />
           <span>{playerCount}</span>
         </div>
+        <CardAction id={id} />
       </div>
     </div>
   );

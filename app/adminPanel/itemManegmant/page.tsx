@@ -1,27 +1,10 @@
 import AddCard from "@/components/AddCard";
-import AddGameList from "@/components/AddGameList";
+import AddGameList from "@/components/VideoGameForm";
 import Button from "@/components/Button";
 import Card from "@/components/Card";
+import CardList from "@/components/CardList";
 import { getProduct } from "@/services/product/api";
 import { FaBoxesStacked } from "react-icons/fa6";
-
-interface VideoGameProductType {
-  id: number;
-  title: string;
-  description: string;
-  genre: string;
-  platform: string;
-  playerCount: number;
-  releaseDate: Date;
-  price: number;
-  publisher: string;
-  developer: string;
-  rating: number;
-  coverImageUrl?: string;
-  trailerUrl?: string;
-  createdAt: Date;
-  updatedAt: Date;
-}
 
 const itemManegmant = async () => {
   const productList = await getProduct();
@@ -45,17 +28,7 @@ const itemManegmant = async () => {
           />
         </div>
       </div>
-      <div className="mx-2 p-2 grow mb-2 border rounded overflow-y-scroll bg-neutral-800">
-        <AddCard children={<AddGameList />} title="add new game" />
-        {productList.data.data.map((itemInfo: VideoGameProductType) => {
-          <Card
-            key={itemInfo.id}
-            coverImageUrl={itemInfo.coverImageUrl}
-            playerCount={itemInfo.playerCount}
-            title={itemInfo.title}
-          />;
-        })}
-      </div>
+      <CardList list={productList.data.data} />
     </div>
   );
 };
