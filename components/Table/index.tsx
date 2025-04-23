@@ -44,7 +44,10 @@ const renderCell = (cell: any, index: number, rowIndex: number) => {
         <img src={cell} alt="" />
       </td>
     ) : (
-      <td className="px-4 py-2 text-4xl border-b border-gray-700 text-center">
+      <td
+        key={index}
+        className="px-4 py-2 text-4xl border-b border-gray-700 text-center"
+      >
         <FaUserLarge className="rounded-full text-zinc-300 p-1 bg-neutral-900 border border-sky-500" />
       </td>
     );
@@ -93,7 +96,6 @@ const renderRows = (list: User[], actions: boolean) => {
     </tr>
   ));
 };
-
 
 const Table = ({ list, actions }: TablePropsType) => {
   const headers = Object.keys(list[0]);

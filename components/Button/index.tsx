@@ -5,6 +5,7 @@ const Button = ({
   type = "button",
   className,
   color,
+  defualt=false,
   onClick,
 }: ButtonProspType) => {
   let colorButton;
@@ -34,7 +35,7 @@ const Button = ({
     <button
       type={type}
       onClick={onClick}
-      className={`cursor-pointer  font-medium ${colorButton} ${className}`}
+      className={`cursor-pointer ${defualt && 'px-2 py-1 rounded-sm'}  font-medium ${colorButton} ${className}`}
     >
       {label}
     </button>

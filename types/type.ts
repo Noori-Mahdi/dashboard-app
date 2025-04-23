@@ -5,6 +5,7 @@ export interface ButtonProspType {
   color: "primary" | "success" | "danger" | "warning" | "info";
   className: string;
   onClick?: () => void;
+  defualt?: boolean;
   type?: "submit" | "button";
 }
 

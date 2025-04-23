@@ -22,8 +22,8 @@ const NavBar = () => {
   );
 
   const pages = [
-    { name: "Store", url: "/store", public: true },
-    { name: "Library", url: "/library", public: false },
+    { name: "store", url: "/store", public: true },
+    { name: "library", url: "/library", public: false },
     { name: "dashboard", url: "/dashboard", public: false },
     { name: "adminPanel", url: "/adminPanel/userManegmant", public: false },
   ];
@@ -59,6 +59,7 @@ const NavBar = () => {
           onClick={() => {
             setModeLoginModal("login");
           }}
+          defualt
           color="primary"
           className="capitalize font-bold  text-neutral-800"
         />

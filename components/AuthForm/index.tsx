@@ -31,7 +31,9 @@ const AuthForm = ({ type, changeMode }: AuthFormFormPropsType) => {
   const { updateUserInfo } = useContext(Context);
   const router = useRouter();
 
-  const handleChangeData = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChangeData = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     const { name, value } = e.target;
     setFormData((per) => ({ ...per, [name]: value }));
   };
@@ -56,6 +58,7 @@ const AuthForm = ({ type, changeMode }: AuthFormFormPropsType) => {
 
         if (tokenReady) {
           await updateUserInfo();
+          router.push("/store");
         } else {
           console.error("Token is not ready after multiple attempts");
         }
@@ -123,6 +126,7 @@ const AuthForm = ({ type, changeMode }: AuthFormFormPropsType) => {
             label="login"
             type="submit"
             color="primary"
+            defualt
           />
         </div>
       </form>
@@ -192,6 +196,7 @@ const AuthForm = ({ type, changeMode }: AuthFormFormPropsType) => {
             label="register"
             type="submit"
             color="primary"
+            defualt
           />
         </div>
       </form>
